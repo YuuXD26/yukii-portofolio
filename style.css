@@ -253,7 +253,7 @@ header{
   }
   .wrapper button::after {
     content: "";
-    background: #ecf0f1;
+    background: var(--body-bg-color);
     position: absolute;
     z-index: -1;
     padding: 0.85em 0.75em;
